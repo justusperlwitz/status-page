@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<link
+			rel="stylesheet"
+			href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+		<link
+			rel="stylesheet"
+			href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+		<meta http-equiv="refresh" content="5">
+		<title>
+			{{ .SiteName }} Status
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="container">
+			<h1>
+				{{ .SiteName }} Status
+			</h1>
+			<h2>
+				Ping
+			</h2>
+			{{ .Ping }} Seconds
+
+			<h2>
+				HTTP Status
+			</h2>
+			HTTP {{ .Status }}
+
+			<h2>
+				Ping URL
+			</h2>
+
+			<a href="{{ .SiteURL }}">
+				{{ .SiteURL }}
+			</a>
+		</div>
+	</body>
+</html>

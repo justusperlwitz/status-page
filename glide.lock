@@ -1,0 +1,10 @@
+hash: 63bfba65ac1ab62795a39417d28bc5a5535ec731e95031d9c5f0cbaef12ceba5
+updated: 2017-04-15T00:25:32.832241735+02:00
+imports:
+- name: github.com/joho/godotenv
+  version: 325433c502d409f3c3dc820098fb0cfe38d98dc7
+  subpackages:
+  - autoload
+- name: github.com/urfave/negroni
+  version: c0db5feaa33826cd5117930c8f4ee5c0f565eec6
+testImports: []
